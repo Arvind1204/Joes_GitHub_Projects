@@ -1,0 +1,220 @@
+/*General Format*/
+* {
+
+}
+
+html, body{
+	margin: 0;
+	font-family: Helvetica, sans-serif;
+	color: #333;
+	font-size: 18px;
+}
+a {
+	text-decoration: none;
+	color: #333;
+}
+a:unvisited {
+	text-decoration: none;
+	color: #333;
+}
+a:visited {
+	text-decoration: none;
+	color: #333;
+}
+a:hover {
+	text-decoration: none;
+	color: cornflowerblue;
+}
+
+/*Navigation Bar & Drop Downs*/
+		
+		/*Navigation Bar &&text-align center makes the div's center up*/
+
+.navbar {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-color: white;
+}
+		/* Dropdown Button */
+.dropbtn {
+	background-color: white;
+    	border: none;
+    	cursor: pointer;
+	padding: 5px;
+}
+.dropbtn a {
+	text-decoration: none;
+}
+
+		/* The container <div> - needed to position the dropdown content */
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	width: 22%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+		/* Dropdown Content (Hidden by Default) */
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+    	min-width: 160px;
+	text-align: left;
+}
+
+		/* Links inside the dropdown */
+
+.dropdown-content a {
+	position: relative;
+	z-index: 1;
+	display: block;
+	text-decoration: none;
+	padding: 5px;
+	border-bottom: 1px solid cornflowerblue;
+	border-left: 1px solid cornflowerblue;
+	background-color: white;
+	opacity: 0.9;
+}
+
+		/* Change color of dropdown links on hover */
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+}
+
+		/* Show the dropdown menu on hover */
+
+.dropdown:hover .dropdown-content {
+    	display: block;
+}
+
+		/* Change the background color of the dropdown button when the dropdown content is shown */
+
+.dropdown:hover .dropbtn {
+    	background-color: grey;
+}
+
+/*FOOTER*/
+
+.social {
+	text-align: center;
+	display: block;
+	width: 100%;
+}
+.social p {
+	margin-top: 2%;
+	position: relative;
+	display: block;
+	font-size: .8em;
+}
+.social div {
+	display: inline-block;
+	width: 8%;
+	margin: 0 auto;
+	text-align: center;
+}
+.social img {
+	position: relative;
+	width: 2.5em;
+	height: 2.5em;
+	margin: 0 auto;
+}
+.footernav {
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+.footernav a {
+	display: inline-block;
+	width: 22%;
+}
+.footer p {
+	margin-top: 2%;
+	margin-bottom: 2%;
+	font-size: .6em;
+	width: 100%;
+	text-align: center;
+}
+
+/*HOME PAGE*/
+
+img {
+	position: absolute;
+	margin-top: 5%;
+	margin-right: auto;
+    margin-left: 40%;
+	width: 20%;
+	border-radius: 100%;
+}
+h1 {
+	position: absolute;
+	display: block;
+	width: 100%;
+    text-align: center;
+	margin-top: 27%;
+}
+.main {
+	width: 100%;
+	height: 615px;
+	display: block;
+	position: relative;
+	text-align: left;
+}
+
+.main::after {
+	content: "";
+	background:url(http://i.imgur.com/c0rvJ.gif);
+	background-size: 100%;
+	opacity: 0.3;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;   
+}
+
+/*RESUME PAGE*/
+.resumeMain {
+	width: 100%;
+	height: 825px;
+	display: block;
+	position: relative;
+	text-align: left;
+}
+.resumeMain p {
+	position: absolute;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-family: italic;
+}
+.resumeMain h1 {
+	position: absolute;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-style: bold;
+}
+.resumeMain::after {
+	content: "";
+	background:url(https://scontent.xx.fbcdn.net/v/t31.0-8/1912376_10156081349955078_2015790135092438069_o.jpg?oh=d03732167ff6050381be4ad286a07592&oe=590C4248);
+	background-size: 100%;
+	opacity: 0.3;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;   
+}

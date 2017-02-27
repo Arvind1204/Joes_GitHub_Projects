@@ -1,0 +1,20 @@
+Customer added $1
+Customer added $5
+Customer purchased a Potato Crisps
+Customer added $10
+Customer purchased a Grain Waves
+Customer added $5
+Customer added $5
+Customer purchased a Stackers
+Customer added $5
+Customer purchased a Crunchie
+Customer finished their transaction, receiving 13 quarters, 0 dimes, and 0 nickels in change
+Customer added $5
+Customer added $10
+Customer purchased a Chiclets
+Customer added $5
+Customer purchased a Cloud Popcorn
+Customer finished their transaction, receiving 5 quarters, 1 dimes, and 0 nickels in change
+Customer added $5
+Customer purchased a Grain Waves
+Customer finished their transaction, receiving 9 quarters, 0 dimes, and 0 nickels in change
